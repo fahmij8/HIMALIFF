@@ -52,7 +52,7 @@ function sendData(){
         }]).then(function() {
             window.alert('Sukses!\nSilahkan lihat room chatnya ya!');
         }).catch(function(error) {
-            window.alert('Error sending message: ' + error);
+            window.alert('Belum login LINE yaa ?\nKuy login dulu, dan buka aplikasi ini di LINE;)');
         });
     });
 

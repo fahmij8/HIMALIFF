@@ -67,6 +67,7 @@ function initializeLiff(myLiffId) {
     // openWindow External Call
     document.getElementById('urls').addEventListener('click', function() {
         liff.openWindow({
+            url: "https://himaliff-app.herokuapp.com/",
             external: true
         });
     });
