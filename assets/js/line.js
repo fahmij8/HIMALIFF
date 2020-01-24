@@ -64,7 +64,12 @@ function initializeLiff(myLiffId) {
             external: false
         });
     });
-    // closeWindow call
+    // openWindow External Call
+    document.getElementById('urls').addEventListener('click', function() {
+        liff.openWindow({
+            external: true
+        });
+    });
 
 /**
 * Alert the user if LIFF is opened in an external browser and unavailable buttons are tapped
