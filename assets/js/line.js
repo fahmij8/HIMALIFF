@@ -72,6 +72,13 @@ function initializeLiff(myLiffId) {
         });
     });
 
+    document.getElementById('source').addEventListener('click', function() {
+        liff.openWindow({
+            url: "https://github.com/fahmij8/HIMALIFF",
+            external: true
+        });
+    });
+
 /**
 * Alert the user if LIFF is opened in an external browser and unavailable buttons are tapped
 */
