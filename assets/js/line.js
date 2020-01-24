@@ -58,7 +58,6 @@ function initializeLiff(myLiffId) {
 /**
 * Register event handlers for the buttons displayed in the app
 */
-function registerButtonHandlers() {
     // openWindow call
     document.getElementById('url1').addEventListener('click', function() {
         liff.openWindow({
@@ -75,7 +74,6 @@ function registerButtonHandlers() {
             liff.closeWindow();
         }
     });
-}
 
 /**
 * Alert the user if LIFF is opened in an external browser and unavailable buttons are tapped
