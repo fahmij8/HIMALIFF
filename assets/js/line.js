@@ -59,9 +59,8 @@ function initializeLiff(myLiffId) {
 * Register event handlers for the buttons displayed in the app
 */
     // openWindow call
-    document.getElementById('url1').addEventListener('click', function() {
+    document.getElementById('url').addEventListener('click', function() {
         liff.openWindow({
-            url: 'http://fahmi-j.me',
             external: false
         });
     });
