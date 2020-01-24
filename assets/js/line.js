@@ -61,19 +61,11 @@ function initializeLiff(myLiffId) {
     // openWindow call
     document.getElementById('url1').addEventListener('click', function() {
         liff.openWindow({
-            url: 'https://line.me',
-            external: true
+            url: 'http://fahmi-j.me',
+            external: false
         });
     });
-
     // closeWindow call
-    document.getElementById('tutup').addEventListener('click', function() {
-        if (!liff.isInClient()) {
-            sendAlertIfNotInClient();
-        } else {
-            liff.closeWindow();
-        }
-    });
 
 /**
 * Alert the user if LIFF is opened in an external browser and unavailable buttons are tapped
