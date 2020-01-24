@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>F/J Apps - Let's Sign Up</title>
+    <meta name="description" content="Kuy daftar!">
+    <link rel="icon" type="image/png" sizes="900x650" href="assets/img/portfolio/cabin.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4-.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-secondary text-uppercase" id="mainNav" style="padding-bottom: 0px;margin-bottom: -1px;padding-top: 0px;">
+        <div class="container"><a class="navbar-brand text-capitalize js-scroll-trigger" href="#page-top"><i class="fa fa-user"></i>&nbsp;Let's Sign Up!</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse text-left" id="navbarResponsive" style="margin-right: 0px;padding-right: 118px;">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link active text-capitalize py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#main"><i class="fa fa-university"></i>&nbsp;Daftar!</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link text-capitalize py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about"><i class="fa fa-info-circle"></i>&nbsp;Tentang Apps</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link text-capitalize py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact"><i class="fa fa-phone"></i>&nbsp;Kontak Saya</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div data-aos="fade-down" data-aos-once="true" id="main" class="login-dark" style="filter: blur(0px);height: 663px;">
+        <form style="margin-top: -7px;" id="this">
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration" style="margin-bottom: 2px;margin-top: -57px;"><i class="icon ion-clipboard"></i>
+                <h4>Daftar HIMALIFF</h4>
+                <h6><a href="#about">Apaan sih ?</a></h6>
+            </div>
+            <div class="form-group"><input class="form-control" type="text" id="Nama" name="Nama" placeholder="Nama Lengkap" inputmode="latin" required=""></div>
+            <div class="form-group"><input class="form-control" type="email" id="Email" name="Email" placeholder="Email" inputmode="email" required=""></div>
+            <div class="form-group"><input class="form-control" type="text" id="Jurusan" name="Jurusan" placeholder="Jurusan - Angkatan" inputmode="email" required=""></div>
+            <div class="form-group"><a class="btn btn-outline-light btn-block" href="#s" onclick="checkValue();">Kuy!</a> </div>
+            <div class="form-group"><a class="btn btn-danger btn-block" id="tutup">Gajadi ah!</a></div>
+        </form>
+    </div>
+    <section data-aos="zoom-in" data-aos-once="true" id="about" class="bg-primary text-white mb-0" style="margin-top: -11px;padding-bottom: 68px;">
+        <div class="container">
+            <h3 class="text-uppercase text-center text-white">Tentang aplikasi</h3>
+            <hr class="star-light mb-5">
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p class="lead">Banyak kita temui hari ini para penggiat organisasi menggunakan google form untuk mengolah data, <em>say no more </em>pada google form! Hari ini kuy kita asah skill HTML,CSS dan JS kita untuk membuat form sendiri yang lebih keren dan
+                        ciamik!</p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead">Selain membuat form sendiri, aplikasi yang saya buat juga membuat data di form otomatis tersimpan ke google spreadsheet! keren kan?<br><br>Yuk mulai sekarang!</p>
+                </div>
+            </div>
+            <div class="text-center mt-4"><a class="btn btn-outline-light btn-xl" role="button" href="#"><i class="fa fa-eye mr-2"></i><span>Lihat source code</span></a></div>
+            <div class="text-center mt-4" style="margin-right: 0px;margin-left: -40px;"><a class="btn btn-outline-light btn-xl" role="button" href="#" style="margin-left: 39px;"><i class="fa fa-globe mr-2"></i><span>Buka di browser eksternal</span></a></div>
+        </div>
+    </section>
+    <section data-aos="fade-up" data-aos-once="true" id="contact" style="margin-top: -41px;padding-bottom: 13px;">
+        <div class="container">
+            <h3 class="text-uppercase text-center text-secondary mb-0">Hubungi saya</h3>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm" name="sentMessage" novalidate="novalidate" style="background-color: #ffffff;">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Name</label><input class="form-control" type="text" id="NamaE" required="" placeholder="Nama"><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Email Address</label><input class="form-control" type="email" id="EmailE" required="" placeholder="Alamat Email"><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Phone Number</label><input class="form-control" type="tel" id="TelE" required="" placeholder="No. Telepon"><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-5 pb-2"><textarea class="form-control" id="MesE" required="" placeholder="Pesan" rows="2"></textarea><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div id="success"></div>
+                        <div class="form-group"><a href="#a" class="btn btn-primary btn-l" onclick="goToMail();">Kirim</a></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer text-center" style="padding-top: 25px;padding-bottom: 25px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase">Ikuti saya</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="http://facebook.com/fhmj8"><i class="fa fa-facebook fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="http://line.me/ti/p/~fahmij8"><i class="fab fa-line fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="http://instagram.com/fahmij8"><i class="fa fa-instagram fa-fw"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">tentang saya</h4>
+                    <p class="lead mb-0"><span>Kuy lihat-lihat di <a href="http://fahmi-j.me">fahmi-j.me</a></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Made with&nbsp;❤&nbsp;||&nbsp;© Fahmi J 2020</small></div>
+    </div>
+    <script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
+    <script src="assets/js/line.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/freelancer.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/my.js"></script>
+</body>
+
+</html>
